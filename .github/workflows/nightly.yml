@@ -31,7 +31,7 @@ jobs:
         uses: actions/setup-dotnet@v2.0.0
           
       - name: Restore
-        run: dotnet restore src/FileShare.sln -c Debug
+        run: dotnet restore src/FileShare.sln
         
       - name: Build
         run: dotnet build src/FileShare.sln -c Debug
