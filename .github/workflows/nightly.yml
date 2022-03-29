@@ -31,7 +31,7 @@ jobs:
         uses: actions/setup-dotnet@v2.0.0
         
       - name: Install .NET workloads
-        run: dotnet workload install maui-android maui-ios
+        run: dotnet workload install maui-android maui-ios maccatalyst
           
       - name: Restore
         run: dotnet restore src/FileShare.sln
